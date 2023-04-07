@@ -25,8 +25,8 @@ trait My {
     // the method returns a structure
     fn login(&self, user: &str, password: &str) -> LoginResponse;
     // the method is mapped to RPC method "login"
-    // it returns a structure but "result_field" attribute argument automatically extracts "token"
-    // field only
+    // it returns a structure but "result_field" attribute argument
+    // automatically extracts "token" field only
     #[rpc(name = "login", result_field = "token")]
     fn authenticate(&self, user: &str, password: &str) -> String;
 }
