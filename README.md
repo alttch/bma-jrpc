@@ -31,6 +31,8 @@ trait My {
     fn authenticate(&self, user: &str, password: &str) -> String;
 }
 
+// The structure MyClient is automatically created for the above trait with a method "new"
+
 // the response structure for the full "login" method output
 #[derive(Deserialize, Debug)]
 struct LoginResponse {
