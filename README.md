@@ -1,8 +1,8 @@
 # bma-jrpc
 
-JSON-RPC Client for Rust
+[JSON-RPC](https://www.jsonrpc.org) client for Rust
 
-## Why yet another JSON RPC client when there are plenty?
+## Why yet another JSON-RPC client when there are plenty?
 
 The goal is to build a tiny client library which can construct a high or low
 level RPC client with a couple of lines of code.
