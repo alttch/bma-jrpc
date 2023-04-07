@@ -1,8 +1,8 @@
-<h2>
+<h1>
     bma-jrpc - JSON RPC client for Rust
     <a href="https://crates.io/crates/bma-jrpc"><img alt="crates.io page" src="https://img.shields.io/crates/v/bma-jrpc.svg"></img></a>
     <a href="https://docs.rs/bma-jrpc"><img alt="docs.rs page" src="https://docs.rs/bma-jrpc/badge.svg"></img></a>
-</h2>
+</h1>
 
 ## Why yet another JSON-RPC client when there are plenty?
 
